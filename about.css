@@ -1,0 +1,52 @@
+.bingkai{
+    position: absolute;
+    top: 50%;
+    left: 9%;
+    width: 450px;
+    height: 540px;
+    border: 10px solid #F47522;
+    border-style: solid;
+}
+
+.bingkai_2{
+    position: absolute;
+    top: 203%;
+    left: 9%;
+    width: 450px;
+    height: 540px;
+    border: 10px solid #19345E;
+    border-style: solid;
+}
+
+.bingkai_3{
+    position: absolute;
+    top: 350%;
+    left: 9%;
+    width: 450px;
+    height: 540px;
+    border: 10px solid #F47522;
+    border-style: solid;
+}
+
+.bawah{
+    border: 2px solid #ffffff;
+    background-color: #19345E;
+    height: 120%;
+    padding: 20px 5%;
+    font-size: 1px;
+    margin: 0px;
+}
+
+.copy{
+    top: 490%;
+    left: 75%;
+    position: absolute;
+    color: #ffffff;
+}
+
+.icon{
+    position: absolute;
+    top: 490%;
+    left: 40%;
+
+}
