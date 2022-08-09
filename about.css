@@ -1,6 +1,6 @@
 .bingkai{
     position: absolute;
-    top: 50%;
+    top: 42%;
     left: 9%;
     width: 450px;
     height: 540px;
@@ -10,7 +10,7 @@
 
 .bingkai_2{
     position: absolute;
-    top: 203%;
+    top: 195%;
     left: 9%;
     width: 450px;
     height: 540px;
@@ -20,7 +20,7 @@
 
 .bingkai_3{
     position: absolute;
-    top: 350%;
+    top: 340%;
     left: 9%;
     width: 450px;
     height: 540px;
@@ -38,7 +38,7 @@
 }
 
 .copy{
-    top: 490%;
+    top: 485%;
     left: 75%;
     position: absolute;
     color: #ffffff;
@@ -46,7 +46,6 @@
 
 .icon{
     position: absolute;
-    top: 490%;
+    top: 485%;
     left: 40%;
-
 }
