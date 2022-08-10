@@ -89,8 +89,8 @@ body {
     width: 350px;
     height: 350px;
     position: absolute;
-    margin-bottom: 200px;
-    margin-right: 35px;
+    bottom: 20px;
+    padding: 1px;
     right: 25px;
 }
 
@@ -119,20 +119,33 @@ body {
     position: absolute;
 }
 
-.bungkus {
-    padding-left: 230px;
-}
-
 .kotak-gambar1 {
-    margin-right: 50px;
     margin-top: 100px;
-    margin-left: -80px;
 }
 
 .kotak-gambar2 {
-    margin-right: 50px;
     margin-top: 100px;
-    margin-left: 80px;
+}
+
+.profesi {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    margin-top: 205px;
+}
+
+.logo-footer img {
+    margin-top: 25px;
+    height: 80px;
+    width: 150px;
+}
+
+.copyright p {
+    margin-top: 60px;
+    margin-left: 150px;
 }
 
 /* Responsive tablet  */
@@ -166,14 +179,59 @@ body {
         font-size: 20px;
     }
 
+    .ourteam {
+        margin-top: 70px;
+    }
+
     .ornamen {
         display: none;
+    }
+
+    .latest-blogs {
+        margin-top: 900px;
+    }
+
+    .latest-row {
+        justify-content: center;
+        display: grid;
+    }
+    .sentence-blogs {
+        margin-top: 220px;
+    }
+
+    .date-lary {
+        float: right;
+    }
+
+    .a-blogs {
+        float: right;
+    }
+
+    .tigaorang {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        top: 50px;
+        padding: 1px;
+        right: 25px;
+    }
+
+    .bungkus {
+        margin-right: 250px;
+    }
+
+    .kotak-gambar-tengah {
+        margin-top: 85px;
+    }
+
+    .footer {
+        margin-top: 1285px;
     }
 }
 
 /* Responsive mobile  */
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
     body {
         width: 100%;
     }
@@ -225,5 +283,28 @@ body {
         align-items: center;
         justify-content: center;
         display: contents;
+    }
+
+    .latest-blogs {
+        margin-top: 900px;
+    }
+
+    .latest-row {
+        justify-content: center;
+        display: grid;
+        /* margin-right: 50px; */
+    }
+
+    .sentence-blogs {
+        margin-top: 220px;
+    }
+
+    .date-lary {
+        float: right;
+    }
+
+    .bungkus {
+        margin-left: 43px;
+        bottom: -850px;
     }
 }
