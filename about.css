@@ -1,6 +1,15 @@
+/* .batik{
+    position: relative;
+} */
+
+.fog{
+    position: absolute;
+    top: 50%;
+}
+
 .bingkai{
     position: absolute;
-    top: 42%;
+    top: 68%;
     left: 9%;
     width: 450px;
     height: 540px;
@@ -10,7 +19,7 @@
 
 .bingkai_2{
     position: absolute;
-    top: 195%;
+    top: 218%;
     left: 9%;
     width: 450px;
     height: 540px;
@@ -20,7 +29,7 @@
 
 .bingkai_3{
     position: absolute;
-    top: 340%;
+    top: 361%;
     left: 9%;
     width: 450px;
     height: 540px;
@@ -38,7 +47,7 @@
 }
 
 .copy{
-    top: 485%;
+    top: 499%;
     left: 75%;
     position: absolute;
     color: #ffffff;
@@ -46,6 +55,6 @@
 
 .icon{
     position: absolute;
-    top: 485%;
+    top: 498%;
     left: 40%;
 }
