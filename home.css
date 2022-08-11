@@ -322,16 +322,8 @@ body {
         height: 899px;
     }
 
-    .alta-1 {
-        font-size: 10px;
-    }
-
-    .alta-forall1 p {
-        font-size: 15px;
-    }
-
-    .alta-forall2 p {
-        font-size: 9px;
+    .alta-1 p {
+        font-size: 1px;
     }
 
     .kotal-kecil {
@@ -387,6 +379,8 @@ body {
         margin-left: 0px;
     }
 }
+
+/* Additional */
 
 @media screen and (max-width: 1024px) {
     .kata-about {
