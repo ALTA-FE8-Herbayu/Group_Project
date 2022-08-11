@@ -61,10 +61,11 @@
                             <div class="row">
                                 <li class="nav-item d-flex col-12">
                                     <a
+                                        id="contact"
                                         class="nav-link border border-warning rounded-pill d-flex justify-content-center align-items-center"
                                         href="#"
                                         style="color: #f47522; width: 160px"
-                                        ;
+                                        onmouseover="changeColor()"
                                         >Contact</a
                                     >
                                 </li>
@@ -175,6 +176,7 @@
                     <div class="col-xl-12 col-lg-12 col-sm-12 col-12">
                         <div class="alta-forall1">
                             <p
+                                id="quote"
                                 class="alta-1 fw-bold text-white text-lg-center text-sm-center text-center align-items-center align-items-lg-center align-items-sm-center"
                                 style="font-size: 55px"
                             >
@@ -364,4 +366,11 @@
         </footer>
         <!-- Footer Akhir -->
     </body>
+
+    <script>
+        const changeColor = () => {
+            document.getElementById("contact").style.background = "#F47522";
+            document.getElementById("contact").style.color = "white";
+        };
+    </script>
 </html>
