@@ -40,11 +40,12 @@
                         aria-controls="navbarSupportedContent"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
+                        style="width: 55px"
                     >
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 ms-5">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item me-4">
                                 <a class="nav-link" aria-current="page" href="#" style="color: #f47522">Home</a>
                             </li>
@@ -155,24 +156,30 @@
         <!--Pengalaman Akhir  -->
 
         <!-- About Awal -->
+        <div class="garis-about d-flex align-items-center justify-content-center mb-5">
+            <!-- <div class="border border-primary me-1" style="width: 40px"></div> -->
+            <hr class="me-2" style="width: 40px; border: 1px solid #f47522; opacity: 1" />
+            <h1 class="mb-2 fs-1 d-flex justify-content-center text-center text-lg-center text-sm-center" style="color: #19345e">About</h1>
+            <hr class="ms-2" style="width: 40px; border: 1px solid #f47522; opacity: 1" />
+        </div>
         <div class="bg-about">
-            <div class="container position-relative">
-                <div class="garis-about d-flex align-items-center justify-content-center">
-                    <div class="border border-primary me-1" style="width: 40px"></div>
-                    <h1 class="mb-2 fs-1 d-flex justify-content-center" style="color: #f47522">About</h1>
-                    <div class="border border-primary ms-1" style="width: 40px"></div>
-                </div>
+            <div class="container text-center">
                 <div class="row">
-                    <div class="col-lg-6 col-sm-6 col-6 bg-tentang mb-5">
-                        <p class="mb-3 mt-3 fs-3 d-flex for-all" style="color: #19345e">Alterra is For Everyone</p>
-                        <p class="fs-5" style="color: #19345e">
+                    <div class="col-xl-12 col-lg-12 col-sm-12 col-12 kata-about">
+                        <p
+                            class="fw-bold text-white text-lg-center text-sm-center text-center align-items-center align-items-lg-center align-items-sm-center alta-forall1"
+                            style="font-size: 55px"
+                        >
+                            Alterra is For Everyone
+                        </p>
+                        <p
+                            class="fw-bold text-white text-lg-center text-sm-center text-center align-items-center align-items-lg-center align-items-sm-center alta-forall2 d-inline-block"
+                            style="font-size: 18px"
+                        >
                             As a brandnew Catalyst, we are aiming to become one of the best tech companies in Indonesia. Joining the tech industry in Indonesia since 2015 under the
                             name of Sepulsa, we have evolved as a B2B tech company in 4 years providing various services such as Bill Payment Aggregator, Distribution Network,
                             Promotion Platform, and Tech Academy.
                         </p>
-                    </div>
-                    <div class="col-lg-6 col-sm-6 col-6 d-none d-sm-block">
-                        <img src="./assets/ASSETS FINAL PROJECT HTML-CSS/tigaorang.jpg" alt="" class="tigaorang d-flex justify-content-center" />
                     </div>
                 </div>
             </div>
@@ -180,21 +187,18 @@
         <!-- About Akhir -->
 
         <!-- Our Team Awal -->
-        <div class="ourteam position-relative" style="width: 100%; height: 550px">
-            <img
-                src="./assets/ASSETS FINAL PROJECT HTML-CSS/ornament_batik.png"
-                alt=""
-                style="width: 300px; height: 420px"
-                class="position-absolute d-none d-sm-block d-md-block"
-            />
+        <div
+            class="position-relative ourteam"
+            style="width: 100%; height: 550px; background-image: url(./assets/ASSETS\ FINAL\ PROJECT\ HTML-CSS/ornament_batik.png); background-repeat: no-repeat"
+        >
             <div class="container">
                 <div class="garis-ourteam d-flex align-items-center justify-content-center">
-                    <div class="border border-warning me-1" style="width: 40px"></div>
+                    <hr class="me-2" style="width: 40px; border: 1px solid #f47522; opacity: 1" />
                     <h1 class="mb-2 fs-1 d-flex justify-content-center text-center text-lg-center text-sm-center" style="color: #19345e">Meet Our Team</h1>
-                    <div class="border border-warning ms-1" style="width: 40px"></div>
+                    <hr class="ms-2" style="width: 40px; border: 1px solid #f47522; opacity: 1" />
                 </div>
                 <p class="text-center text-lg-center text-md-center text-sm-center" style="top: 25px; color: #19345e">Our Team Consists Only of the Best Talents</p>
-                <div class="row d-flex mt-5 my-sm-auto my-md-auto my-auto position-absolute justify-content-between bungkus" style="margin-left: 210px">
+                <div class="row d-flex mt-2 my-sm-auto my-md-auto my-auto justify-content-between bungkus">
                     <div
                         class="col-lg-4 col-sm-12 col-12 my-auto my-lg-auto my-sm-auto mx-sm-auto align-items-lg-center align-items-center"
                         style="margin-top: 100px; flex-direction: column"
@@ -209,8 +213,8 @@
                             />
                         </div>
                         <div class="profesi mt-4 text-sm-center text-md-center text-lg-center mb-3">
-                            <p class="fs-5">Aulia Rahmani</p>
-                            <p>UI UX Designer</p>
+                            <p class="fs-5 fw-bold" style="color: #f47522">Aulia Rahmani</p>
+                            <p style="color: #19345e">UI UX Designer</p>
                         </div>
                     </div>
                     <div
@@ -222,13 +226,13 @@
                             <img
                                 src="./assets/ASSETS FINAL PROJECT HTML-CSS/shutterstock_796346011@2x.png"
                                 alt=""
-                                class="cewe-kotak"
+                                class="cewe-kotak shadow-lg"
                                 style="margin-top: -30px; margin-left: 35px"
                             />
                         </div>
                         <div class="profesi mt-4 text-sm-center text-md-center text-lg-center text-center">
-                            <p class="fs-5">Cindy Felita</p>
-                            <p>Backend Development</p>
+                            <p class="fs-5 fw-bold" style="color: #f47522">Cindy Felita</p>
+                            <p style="color: #19345e">Backend Development</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-12 col-12 my-auto mx-sm-auto align-items-lg-center align-items-center" style="margin-top: 100px; flex-direction: column">
@@ -242,8 +246,8 @@
                             />
                         </div>
                         <div class="profesi mt-4 text-sm-center text-md-center text-lg-center text-center">
-                            <p class="fs-5">Winda Pramesti</p>
-                            <p>Frontend Development</p>
+                            <p class="fs-5 fw-bold" style="color: #f47522">Winda Pramesti</p>
+                            <p style="color: #19345e">Frontend Development</p>
                         </div>
                     </div>
                 </div>
@@ -252,18 +256,18 @@
         <!-- Our Team Akhir -->
 
         <!-- Latest Blogs Awal -->
-        <div class="latest-blogs position-relative" style="width: 100%; height: 550px">
+        <div class="latest-blogs" style="width: 100%; height: 550px">
             <div class="container mt-5 mt-lg-5 mt-sm-5">
                 <div class="garis-blogs d-flex align-items-center justify-content-center">
-                    <div class="border border-warning me-1" style="width: 40px"></div>
-                    <h1 class="mb-2 fs-1 d-flex justify-content-center text-center text-lg-center text-sm-center" style="color: #19345e">Blogs</h1>
-                    <div class="border border-warning ms-1" style="width: 40px"></div>
+                    <hr class="me-2" style="width: 40px; border: 1px solid #f47522; opacity: 1" />
+                    <h1 class="mb-2 fs-1 d-flex justify-content-center text-center text-lg-center text-sm-center" style="color: #19345e">Latest Blogs</h1>
+                    <hr class="ms-2" style="width: 40px; border: 1px solid #f47522; opacity: 1" />
                 </div>
-                <div class="row mt-4 mt-lg-4 mt-sm-4 latest-row ms-lg-5">
+                <div class="row mt-4 mt-lg-4 mt-sm-4 latest-row">
                     <div class="col-lg-4 col-sm-12 col-12 mb-3 mt-5">
-                        <img src="./assets/ASSETS FINAL PROJECT HTML-CSS/img_article.jpg" alt="" style="width: 285px; height: 207px" class="position-absolute" />
-                        <div class="sentence-blogs" style="margin-top: 220px">
-                            <p style="color: #19345e; font-size: 20px">
+                        <img src="./assets/ASSETS FINAL PROJECT HTML-CSS/img_article.jpg" alt="" style="width: 285px; height: 207px" class="align-items-center" />
+                        <div class="sentence-blogs" style="margin-top: 20px">
+                            <p class="fw-bold" style="color: #19345e; font-size: 20px">
                                 CREATE A WORDPRESS <br />
                                 THEME FROM SCRATCH
                             </p>
@@ -281,9 +285,9 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-12 col-12 mb-3 mt-5">
-                        <img src="./assets/ASSETS FINAL PROJECT HTML-CSS/img_article.jpg" alt="" style="width: 285px; height: 207px" class="position-absolute" />
-                        <div class="sentence-blogs" style="margin-top: 220px">
-                            <p style="color: #19345e; font-size: 20px">
+                        <img src="./assets/ASSETS FINAL PROJECT HTML-CSS/img_article.jpg" alt="" style="width: 285px; height: 207px" class="" />
+                        <div class="sentence-blogs" style="margin-top: 20px">
+                            <p class="fw-bold" style="color: #19345e; font-size: 20px">
                                 CREATE A WORDPRESS <br />
                                 THEME FROM SCRATCH
                             </p>
@@ -301,9 +305,9 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-12 col-12 mb-3 mt-5">
-                        <img src="./assets/ASSETS FINAL PROJECT HTML-CSS/img_article.jpg" alt="" style="width: 285px; height: 207px" class="position-absolute" />
-                        <div class="sentence-blogs" style="margin-top: 220px">
-                            <p style="color: #19345e; font-size: 20px">
+                        <img src="./assets/ASSETS FINAL PROJECT HTML-CSS/img_article.jpg" alt="" style="width: 285px; height: 207px" class="" />
+                        <div class="sentence-blogs" style="margin-top: 20px">
+                            <p class="fw-bold" style="color: #19345e; font-size: 20px">
                                 CREATE A WORDPRESS <br />
                                 THEME FROM SCRATCH
                             </p>
@@ -337,7 +341,7 @@
                     <div class="socmed mt-3 ms-5">
                         <div class="social-media text-white mt-4 ms-4">Social Media</div>
                         <ul class="d-flex list-unstyled p-1">
-                            <li class="m-2"><img src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_fb.png" alt="" style="width: 20px; height: 20px" /></li>
+                            <li class="m-2 p-0"><img src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_fb.png" alt="" style="width: 20px; height: 20px" /></li>
                             <li class="m-2"><img src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_twitter.png" alt="" style="width: 20px; height: 20px" /></li>
                             <li class="m-2"><img src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_ig.png" alt="" style="width: 20px; height: 20px" /></li>
                             <li class="m-2"><img src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_linkedin.png" alt="" style="width: 20px; height: 20px" /></li>
