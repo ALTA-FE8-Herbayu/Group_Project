@@ -227,6 +227,10 @@ body {
     .footer {
         margin-top: 1285px;
     }
+
+    .kotak-kecil {
+        font-size: 15px;
+    }
 }
 
 /* Responsive mobile  */
@@ -306,5 +310,13 @@ body {
     .bungkus {
         margin-left: 43px;
         bottom: -850px;
+    }
+
+    .kotak-kecil {
+        font-size: 13px;
+    }
+
+    .row .bungkus {
+        margin-left: 50px;
     }
 }
