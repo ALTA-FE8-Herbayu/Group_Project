@@ -42,7 +42,7 @@ body {
 }
 
 .kata-about {
-    margin-top: 80px;
+    margin-top: -460px;
 }
 
 .tombol {
@@ -87,21 +87,24 @@ body {
 .ourteam {
     background-image: url("./assets/ASSETS\ FINAL\ PROJECT\ HTML-CSS/ornamen_batik.png");
     background-repeat: no-repeat;
-    margin-top: 55px;
+    margin-top: 105px;
 }
 
 .bg-about {
-    width: 100%;
-    height: 484px;
-    background-image: url("./assets/ASSETS\ FINAL\ PROJECT\ HTML-CSS/bg-people@2x.png");
+    height: 720px;
+    /* width: 100%; */
+    /* height: 484px; */
+    /* background-image: url("./assets/ASSETS\ FINAL\ PROJECT\ HTML-CSS/bg-people@2x.png"); */
     /* position: relative; */
-    background-repeat: no-repeat;
-    background-size: contain;
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
     /* background: rgba(0, 0, 0, 0.65); */
-    /* background-color: #19345e; */
-    background-blend-mode: lighten;
+    background-color: #19345e;
+    /* background-blend-mode: lighten; */
     opacity: 0.7;
-    background-blend-mode: soft-light;
+    background-blend-mode: lighten;
+    /* background-blend-mode: soft-light; */
+    /* mix-blend-mode: ; */
 }
 
 .kata-kata {
@@ -199,7 +202,7 @@ body {
         /* margin-top: 50px; */
         justify-content: center;
         align-items: center;
-        margin-top: 30px;
+        margin-top: -270px;
     }
 
     .bulet img {
@@ -221,7 +224,7 @@ body {
     }
 
     .ourteam {
-        margin-top: -105px;
+        margin-top: 105px;
     }
 
     .ornamen {
@@ -319,8 +322,12 @@ body {
         height: 899px;
     }
 
+    .alta-1 {
+        font-size: 10px;
+    }
+
     .alta-forall1 p {
-        font-size: 25px;
+        font-size: 15px;
     }
 
     .alta-forall2 p {
@@ -346,7 +353,7 @@ body {
     }
 
     .ourteam {
-        margin-top: -220px;
+        margin-top: 110px;
     }
 
     .latest-blogs {
@@ -378,5 +385,25 @@ body {
         /* justify-content: center; */
         /* display: grid; */
         margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .kata-about {
+        margin-top: -280px;
+    }
+
+    .ourteam {
+        margin-top: 100px;
+    }
+
+    .bg-about {
+        height: 402px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bg-about {
+        height: 302px;
     }
 }
