@@ -82,7 +82,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-sm-6 col-12">
-                        <img onmouseover="changeSize()" class="bulet" src="./assets/ASSETS FINAL PROJECT HTML-CSS/Group 16136@2x@2x.png" alt="" />
+                        <img id="bulet" onmouseover="changeSize()" class="bulet" src="./assets/ASSETS FINAL PROJECT HTML-CSS/Group 16136@2x@2x.png" alt="" />
                     </div>
                     <div class="col-lg-6 col-sm-6 col-12">
                         <div class="kata-kata float-start">
@@ -374,7 +374,7 @@
         };
 
         const changeSize = () => {
-            document.getElementsByClassName("bulet").style.transition = "all 2.5s ease";
+            document.getElementById("bulet").style.transition = "all 2.5s ease";
         };
     </script>
 </html>

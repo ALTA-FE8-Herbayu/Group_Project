@@ -42,7 +42,6 @@ body {
     width: 520px;
     height: 520px;
     cursor: pointer;
-    transition: all 1.5s ease;
 }
 
 .kata-kata {
