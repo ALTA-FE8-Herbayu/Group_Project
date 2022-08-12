@@ -82,7 +82,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-sm-6 col-12">
-                        <img class="bulet" src="./assets/ASSETS FINAL PROJECT HTML-CSS/Group 16136@2x@2x.png" alt="" />
+                        <img onmouseover="changeSize()" class="bulet" src="./assets/ASSETS FINAL PROJECT HTML-CSS/Group 16136@2x@2x.png" alt="" />
                     </div>
                     <div class="col-lg-6 col-sm-6 col-12">
                         <div class="kata-kata float-start">
@@ -185,7 +185,7 @@
                         </div>
                         <div class="alta-forall2">
                             <p
-                                class="alta-2 fw-bold text-white text-lg-center text-sm-center text-center align-items-center align-items-lg-center align-items-sm-center alta-forall2 d-inline-block"
+                                class="alta-2 fw-bold text-white text-lg-center text-sm-center text-center align-items-center align-items-lg-center align-items-sm-center d-inline-block"
                                 style="font-size: 18px"
                             >
                                 As a brandnew Catalyst, we are aiming to become one of the best tech companies in Indonesia. Joining the tech industry in Indonesia since 2015 under
@@ -201,7 +201,7 @@
 
         <!-- Our Team Awal -->
         <div
-            class="position-relative ourteam"
+            class="position-relative ourteam d-sm-none d-md-block"
             style="width: 100%; height: 550px; background-image: url(./assets/ASSETS\ FINAL\ PROJECT\ HTML-CSS/ornament_batik.png); background-repeat: no-repeat"
         >
             <div class="container">
@@ -371,6 +371,10 @@
         const changeColor = () => {
             document.getElementById("contact").style.background = "#F47522";
             document.getElementById("contact").style.color = "white";
+        };
+
+        const changeSize = () => {
+            document.getElementsByClassName("bulet").style.transition = "all 2.5s ease";
         };
     </script>
 </html>

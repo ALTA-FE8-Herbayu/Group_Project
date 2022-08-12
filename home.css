@@ -13,6 +13,10 @@ body {
     color: #19345e;
 }
 
+.nav-link:hover {
+    color: #f47522;
+}
+
 .bg {
     background-color: #edf6ff;
     background-repeat: no-repeat;
@@ -32,6 +36,13 @@ body {
     height: 420px;
     background: transparent;
     position: absolute;
+}
+
+.bulet:hover {
+    width: 520px;
+    height: 520px;
+    cursor: pointer;
+    transition: all 1.5s ease;
 }
 
 .kata-kata {
@@ -322,7 +333,7 @@ body {
         height: 899px;
     }
 
-    .alta-1 p {
+    .alta-2 p {
         font-size: 1px;
     }
 
