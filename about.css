@@ -9,7 +9,7 @@
 
 .bingkai{
     position: absolute;
-    top: 68%;
+    top: 66%;
     left: 9%;
     width: 450px;
     height: 540px;
@@ -19,7 +19,7 @@
 
 .bingkai_2{
     position: absolute;
-    top: 218%;
+    top: 213%;
     left: 9%;
     width: 450px;
     height: 540px;
@@ -29,7 +29,7 @@
 
 .bingkai_3{
     position: absolute;
-    top: 361%;
+    top: 353%;
     left: 9%;
     width: 450px;
     height: 540px;
@@ -37,21 +37,24 @@
     border-style: solid;
 }
 
-.copy{
-    top: 486%;
-    left: 75%;
-    position: absolute;
-    color: #ffffff;
+.footer {
+    margin-top: 205px;
 }
 
-.icon{
-    position: absolute;
-    top: 483%;
-    left: 50%;
+.logo-footer img {
+    margin-top: 25px;
+    height: 80px;
+    width: 150px;
 }
 
-.brand{
-    position: absolute;
-    top: 480%;
-    left: 10%;
+.copyright p {
+    margin-top: 60px;
+    margin-left: 150px;
 }
+
+.latest-row {
+    /* justify-content: center; */
+    /* display: grid; */
+    margin-left: 83px;
+}
+

@@ -40,22 +40,24 @@ input {
     margin: 0px;
 }
 
-.copy{
-    top: 160%;
-    left: 75%;
-    position: absolute;
-    color: #ffffff;
+.footer {
+    margin-top: 205px;
 }
 
-.icon{
-    position: absolute;
-    top: 157%;
-    left: 50%;
+.logo-footer img {
+    margin-top: 25px;
+    height: 80px;
+    width: 150px;
 }
 
-.brand{
-    position: absolute;
-    top: 155%;
-    left: 10%;
+.copyright p {
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+.latest-row {
+    /* justify-content: center; */
+    /* display: grid; */
+    margin-left: 83px;
 }
 

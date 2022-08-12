@@ -14,7 +14,7 @@
   <body style="color: #19345E;">
     <!-- header -->
     <header>
-      <nav class="navbar navbar-expand-lg bg-white">
+      <nav class="navbar navbar-expand-lg bg-white shadow-sm">
         <div class="container">
           <a class="navbar-brand logo" href="#"><img src="./assets/ASSETS FINAL PROJECT HTML-CSS/logo-ALTA@2x.png" alt="" style="width: 150px; height: 80px" /></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,13 +23,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 ms-5">
               <li class="nav-item me-4">
-                <a class="nav-link" aria-current="page" href="#" style="color: #f47522">Home</a>
+                <a class="nav-link" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item me-4">
                 <a class="nav-link tulisan" href="#">About</a>
               </li>
               <li class="nav-item me-4">
-                <a class="nav-link tulisan" href="#">Team</a>
+                <a class="nav-link tulisan" href="#" style="color: #f47522">Team</a>
               </li>
               <li class="nav-item me-5">
                 <a class="nav-link tulisan" href="#">Blog</a>
@@ -271,28 +271,25 @@
    <br>
    <br>
    <footer class="footer" style="width: 100%; height: 130px; background-color: #19345e">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-4">
-        <div class="d-flex justify-content-center align-items-center">
-      <img class="brand" src="./assets/ASSETS FINAL PROJECT HTML-CSS/logo-ALTA-v2@2x.png" width="190px" height="90px">
-      </div>
-      </div>
-      </div>
-        <div class="col-lg-6 col-md-6 col-6">
-          <div class="d-flex justify-content-center align-items-center">
-        <div class="icon">
-            <p style="color: white;">Social Media</p>
-      <img style="width: 20px; height: 20px;" src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_fb.png">
-      <img style="width: 20px; height: 20px;" src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_twitter.png">
-      <img style="width: 20px; height: 20px;" src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_ig.png">
-      <img style="width: 20px; height: 20px;" src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_linkedin.png">
-      </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-4">
-        <div class="d-flex justify-content-center align-items-center">
-      <p class="copy" style="text-align: right;">Copyright © 2019 Alterra</p></div>
-</div>
+    <div class="container d-flex justify-content-between">
+        <div class="logo-footer">
+            <img src="./assets/ASSETS FINAL PROJECT HTML-CSS/logo-ALTA-v2@2x.png" alt="logo" class="img-fluid" />
         </div>
-  </footer>
+        <div class="link-socmed justify-content-center mt-5">
+            <p class="mb-2 text-white">Social Media</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-2">
+                    <img src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_fb.png" alt="fb" class="img-fluid me-2" style="width: 20px; height: 20px" />
+                </li>
+                <li><img src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_twitter.png" alt="tw" class="img-fluid me-2" style="width: 20px; height: 20px" /></li>
+                <li><img src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_ig.png" alt="ig" class="img-fluid me-2" style="width: 20px; height: 20px" /></li>
+                <li><img src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_linkedin.png" alt="li" class="img-fluid me-2" style="width: 20px; height: 20px" /></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p class="text-white">Copyright &copy; 2019 Alterra</p>
+        </div>
+    </div>
+</footer>
   </body>
 </html>
