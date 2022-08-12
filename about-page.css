@@ -5,6 +5,10 @@ body {
     width: 100%;
 }
 
+.tulisan {
+    color: #19345e;
+}
+
 .jumbotron {
     margin-top: 99px;
     position: relative;
