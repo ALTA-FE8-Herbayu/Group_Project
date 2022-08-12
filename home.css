@@ -1,0 +1,413 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    /* background-color: #edf6ff; */
+    /* background-repeat: no-repeat; */
+    /* background-position: 0%; */
+    position: relative;
+}
+
+.tulisan {
+    color: #19345e;
+}
+
+.nav-link:hover {
+    color: #f47522;
+}
+
+.bg {
+    background-color: #edf6ff;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    width: 100%;
+    height: 734px;
+}
+
+.bulet {
+    margin-top: 151px;
+    /* left: 10px; */
+    /* margin-left: 190px; */
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 160px; */
+    width: 420px;
+    height: 420px;
+    background: transparent;
+    position: absolute;
+}
+
+.bulet:hover {
+    width: 520px;
+    height: 520px;
+    cursor: pointer;
+}
+
+.kata-kata {
+    margin-top: 235px;
+    /* margin-right: 160px; */
+    /* background-color: aqua; */
+    float: left;
+}
+
+.kata-about {
+    margin-top: -460px;
+}
+
+.tombol {
+    background-color: #f47522;
+    /* padding: 15px; */
+    width: 230px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+.tombol:hover {
+    background-color: #f1690e;
+}
+
+.tombol img {
+    width: 20px;
+    height: 20px;
+}
+
+.oren {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.oren img {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    padding-top: 3px;
+    /* padding: auto; */
+    /* padding: 5px; */
+}
+
+.kotal-kecil {
+    margin-right: 30px;
+}
+
+.ourteam {
+    background-image: url("./assets/ASSETS\ FINAL\ PROJECT\ HTML-CSS/ornamen_batik.png");
+    background-repeat: no-repeat;
+    margin-top: 105px;
+}
+
+.bg-about {
+    height: 720px;
+    /* width: 100%; */
+    /* height: 484px; */
+    /* background-image: url("./assets/ASSETS\ FINAL\ PROJECT\ HTML-CSS/bg-people@2x.png"); */
+    /* position: relative; */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    /* background: rgba(0, 0, 0, 0.65); */
+    background-color: #19345e;
+    /* background-blend-mode: lighten; */
+    opacity: 0.7;
+    background-blend-mode: lighten;
+    /* background-blend-mode: soft-light; */
+    /* mix-blend-mode: ; */
+}
+
+.kata-kata {
+    margin-bottom: 200px;
+}
+
+.tigaorang {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    bottom: 20px;
+    padding: 1px;
+    right: 25px;
+}
+
+.cewe-kotak {
+    /* left: 180px; */
+    width: 225px;
+    height: 265px;
+    /* margin-bottom: 205px; */
+    /* top: 163px; */
+    /* position: relative; */
+}
+
+.bingkai {
+    border: 10px solid #f47522;
+    width: 225px;
+    height: 265px;
+    /* z-index: -1; */
+    position: absolute;
+}
+
+.bingkai-tengah {
+    border: 10px solid #19345e;
+    width: 225px;
+    height: 265px;
+    /* margin-left: 50px; */
+    position: absolute;
+}
+
+.kotak-gambar1 {
+    margin-top: 100px;
+}
+
+.kotak-gambar2 {
+    margin-top: 100px;
+}
+
+.profesi {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    margin-top: 205px;
+}
+
+.logo-footer img {
+    margin-top: 25px;
+    height: 80px;
+    width: 150px;
+}
+
+.copyright p {
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+.latest-row {
+    /* justify-content: center; */
+    /* display: grid; */
+    margin-left: 83px;
+}
+
+/* Responsive tablet  */
+
+@media (max-width: 768px) {
+    /* a {
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .kata-kata {
+        margin-top: 235px;
+        margin-left: 65px;
+        float: right;
+        /* background-color: aqua; */
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .kata-about {
+        /* margin-top: 50px; */
+        justify-content: center;
+        align-items: center;
+        margin-top: -270px;
+    }
+
+    .bulet img {
+        margin-top: 11px;
+        /* margin-right: 65px; */
+        align-items: center;
+        justify-content: center;
+        /* margin-left: 160px; */
+        width: 388px;
+        height: 420px;
+        background: transparent;
+        position: absolute;
+    }
+
+    button {
+        width: 25px;
+        height: 35px;
+        font-size: 20px;
+    }
+
+    .ourteam {
+        margin-top: 105px;
+    }
+
+    .ornamen {
+        display: none;
+    }
+
+    .latest-blogs {
+        margin-top: 900px;
+    }
+
+    .latest-row {
+        justify-content: center;
+        display: grid;
+    }
+    .sentence-blogs {
+        margin-top: 220px;
+    }
+
+    .date-lary {
+        float: right;
+    }
+
+    .a-blogs {
+        float: right;
+    }
+
+    .tigaorang {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        top: 50px;
+        padding: 1px;
+        right: 25px;
+    }
+
+    .kotak-gambar-tengah {
+        margin-top: 85px;
+    }
+
+    .footer {
+        margin-top: 1285px;
+    }
+
+    .kotak-kecil {
+        font-size: 15px;
+    }
+
+    .latest-row {
+        /* justify-content: center; */
+        /* display: grid; */
+        margin-left: 0px;
+    }
+}
+
+/* Responsive mobile  */
+
+@media screen and (max-width: 425px) {
+    body {
+        width: 100%;
+    }
+
+    .navbar-toggler {
+        width: 55px;
+        margin: 10px -20px;
+    }
+
+    .kata-kata {
+        margin-top: 435px;
+        /* margin-right: 160px; */
+        /* background-color: aqua; */
+        float: left;
+        font-size: 20px;
+    }
+
+    .bulet {
+        margin-top: 11px;
+        /* margin-right: 65px; */
+        align-items: center;
+        justify-content: center;
+        /* margin-left: 160px; */
+        width: 388px;
+        height: 420px;
+        background: transparent;
+        position: absolute;
+    }
+
+    button {
+        width: 25px;
+        height: 35px;
+        font-size: 20px;
+        margin-bottom: 90px;
+    }
+
+    .bg {
+        height: 899px;
+    }
+
+    .alta-2 p {
+        font-size: 1px;
+    }
+
+    .kotal-kecil {
+        font-size: 15px;
+    }
+
+    .tigaorang {
+        width: 100%;
+        height: 420px;
+        position: absolute;
+        margin-bottom: 200px;
+    }
+
+    .bg-tentang {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: contents;
+    }
+
+    .ourteam {
+        margin-top: 110px;
+    }
+
+    .latest-blogs {
+        margin-top: 1000px;
+    }
+
+    .sentence-blogs {
+        margin-top: 220px;
+    }
+
+    .date-lary {
+        float: right;
+    }
+
+    .bungkus {
+        /* margin-left: 43px; */
+        bottom: -850px;
+    }
+
+    .kotak-kecil {
+        font-size: 13px;
+    }
+
+    .row .bungkus {
+        margin-left: 50px;
+    }
+
+    .latest-row {
+        /* justify-content: center; */
+        /* display: grid; */
+        margin-left: 0px;
+    }
+}
+
+/* Additional */
+
+@media screen and (max-width: 1024px) {
+    .kata-about {
+        margin-top: -280px;
+    }
+
+    .ourteam {
+        margin-top: 100px;
+    }
+
+    .bg-about {
+        height: 402px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bg-about {
+        height: 302px;
+    }
+}
