@@ -9,6 +9,10 @@ body {
     color: #19345e;
 }
 
+.tulisan:hover {
+    color: #f47522;
+}
+
 .jumbotron {
     margin-top: 99px;
     position: relative;
