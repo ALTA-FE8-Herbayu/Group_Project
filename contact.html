@@ -26,7 +26,7 @@
                 <a class="nav-link" aria-current="page" href="#" style="color: #f47522">Home</a>
               </li>
               <li class="nav-item me-4">
-                <a class="nav-link tulisan" href="#">About</a>
+                <a class="nav-link tulisan" href="about.html">About</a>
               </li>
               <li class="nav-item me-4">
                 <a class="nav-link tulisan" href="#">Team</a>
@@ -47,9 +47,9 @@
     <br>
     <br>
     <div class="garis-ourteam d-flex align-items-center justify-content-center">
-        <hr style="width: 40px; border: 1px solid #f47522" />
-        <h1 class="mb-2 fs-1 d-flex justify-content-center text-center text-lg-center text-sm-center" style="color: #19345e">Get In Touch</h1>
-        <hr style="width: 40px; border: 1px solid #f47522" />
+        <hr style="width: 35px; height: 0px; border: 2px solid #f47522; opacity: 1;" />&nbsp;&nbsp;
+        <h1 class="mb-2 fs-1 d-flex justify-content-center text-center text-lg-center text-sm-center" style="color: #19345e">Get In Touch</h1>&nbsp;&nbsp;
+        <hr style="width: 35px; height: 0px; border: 2px solid #f47522; opacity: 1;" />
     </div>
 <br>
 <div class="row d-flex">
@@ -83,13 +83,15 @@
 </div>
 </div>
 </div>
-        <div class="col-lg-4 col-sm-4 col-4">
-            <div class="d-flex justify-content-center align-items-center">
+        <div class="col-lg-8 col-sm-8 col-8">
+            <div>
                 <p>If you have any suggestion, project or even you want to say, Hello.. 
                     <br>Please fill out the form below and I will reply you shortly.</p>
             </div>
             <br>
-            <div>
+            <div class="container">
+            <form onsubmit="sendEmail(); reset(); return false;">
+              <div> 
             <label form="full-name">Full Name</label><span style="color: red;">*</span></div>
             <br>           
             <input id="full-name" type="full-name" placeholder="Your Name"/>
@@ -113,27 +115,56 @@
                 <textarea name="" id="" cols="76" rows="6" placeholder="Your Message...."></textarea>
                 <br>
                 <br>
-                <div  class="intro button">
-                <button>
-               <img style="width: 20px; height: 20px;" src="./assets/ASSETS FINAL PROJECT HTML-CSS/send-mail.png">Send Message</button></div>
-        </div>
+                <div class="intro button">
+                <button type="submit">
+               <img style="width: 20px; height: 20px;" src="./assets/ASSETS FINAL PROJECT HTML-CSS/send-mail.png">&nbsp;&nbsp;Send Message</button></div>
+              </form>
+              </div>
         </div>
     </div>
     </div>
     <br>
     <br>
-    <div class="bawah">
-        <img src="./assets/ASSETS FINAL PROJECT HTML-CSS/logo-ALTA-v2@2x.png" width="190px" height="90px">
-      </div>
-        <div class="icon">
-        <img src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_fb.png">
-        <img src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_twitter.png">
-        <img src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_ig.png">
-        <img src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_linkedin.png">
+    <footer class="footer" style="width: 100%; height: 130px; background-color: #19345e">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-4">
+          <div class="d-flex justify-content-center align-items-center">
+        <img class="brand" src="./assets/ASSETS FINAL PROJECT HTML-CSS/logo-ALTA-v2@2x.png" width="190px" height="90px">
         </div>
         </div>
-        <div>
-        <p class="copy" style="text-align: right;">Copyright@2019 Alterra</p></div>
+        </div>
+          <div class="col-lg-6 col-md-6 col-6">
+            <div class="d-flex justify-content-center align-items-center">
+          <div class="icon">
+              <p style="color: white;">Social Media</p>
+        <img style="width: 20px; height: 20px;" src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_fb.png">
+        <img style="width: 20px; height: 20px;" src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_twitter.png">
+        <img style="width: 20px; height: 20px;" src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_ig.png">
+        <img style="width: 20px; height: 20px;" src="./assets/ASSETS FINAL PROJECT HTML-CSS/ic_linkedin.png">
+        </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-4">
+          <div class="d-flex justify-content-center align-items-center">
+        <p class="copy" style="text-align: right;">Copyright © 2019 Alterra</p></div>
 </div>
+          </div>
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail(){
+      Email.send({
+        SecureToken: "c3927d85-db03-4b73-8d39-39cf127b8484",
+      To : 'rikimuhammad3@gmail.com',
+      From : document.getElementById("email").value,
+      Subject : "New Contact Form Enquiry",
+      Body : "Name: " + document.getElementById("name").value
+              + "<br> Email: " + document.getElementById("Email").value
+              +"<br> Phone: " + document.getElementById("Phone").value
+              +"<br> Message: " + document.getElementById("Message").value
+}).then(
+  message => alert("Message Sent Succesfully")
+);
+      }
+    </script>
         </body>
 </html>

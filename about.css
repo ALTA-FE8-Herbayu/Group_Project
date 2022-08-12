@@ -37,17 +37,8 @@
     border-style: solid;
 }
 
-.bawah{
-    border: 2px solid #ffffff;
-    background-color: #19345E;
-    height: 120%;
-    padding: 20px 5%;
-    font-size: 1px;
-    margin: 0px;
-}
-
 .copy{
-    top: 499%;
+    top: 486%;
     left: 75%;
     position: absolute;
     color: #ffffff;
@@ -55,6 +46,12 @@
 
 .icon{
     position: absolute;
-    top: 498%;
-    left: 40%;
+    top: 483%;
+    left: 50%;
+}
+
+.brand{
+    position: absolute;
+    top: 480%;
+    left: 10%;
 }
