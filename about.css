@@ -1,0 +1,60 @@
+/* .batik{
+    position: relative;
+} */
+
+.fog{
+    position: absolute;
+    top: 50%;
+}
+
+.bingkai{
+    position: absolute;
+    top: 66%;
+    left: 9%;
+    width: 450px;
+    height: 540px;
+    border: 10px solid #F47522;
+    border-style: solid;
+}
+
+.bingkai_2{
+    position: absolute;
+    top: 213%;
+    left: 9%;
+    width: 450px;
+    height: 540px;
+    border: 10px solid #19345E;
+    border-style: solid;
+}
+
+.bingkai_3{
+    position: absolute;
+    top: 353%;
+    left: 9%;
+    width: 450px;
+    height: 540px;
+    border: 10px solid #F47522;
+    border-style: solid;
+}
+
+.footer {
+    margin-top: 205px;
+}
+
+.logo-footer img {
+    margin-top: 25px;
+    height: 80px;
+    width: 150px;
+}
+
+.copyright p {
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+.latest-row {
+    /* justify-content: center; */
+    /* display: grid; */
+    margin-left: 83px;
+}
+
