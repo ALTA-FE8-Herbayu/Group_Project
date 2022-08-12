@@ -64,4 +64,12 @@ body {
         position: absolute;
         margin-bottom: 200px;
     }
+
+    .bg-tentang {
+        margin-left: 120px;
+    }
+
+    .lorem {
+        text-align: center;
+    }
 }
